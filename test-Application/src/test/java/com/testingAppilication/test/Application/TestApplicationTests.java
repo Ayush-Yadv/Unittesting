@@ -31,7 +31,7 @@ class TestApplicationTests {
 	@AfterEach
 	@Test
 	void methodRunAfterEach (){
-		log.info("this annotation run this test case After every test");
+		log.info("the annotation run this test case After every test");
 	}
 
 	@Test
