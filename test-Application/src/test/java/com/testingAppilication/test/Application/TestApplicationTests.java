@@ -15,6 +15,7 @@ class TestApplicationTests {
 	@BeforeAll
     static void methodRunBeforeAll(){
 		log.info("this annotation run this test case before All test");
+	        log.info("this annotation run this test case before All test");
 	}
 
 	@AfterAll
